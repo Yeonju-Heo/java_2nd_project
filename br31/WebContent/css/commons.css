@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@font-face {
+    font-family: 'BBTreeGB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/********************
+	header
+********************/
+
+header {
+	background-image: url("http://localhost:9000/br31/images/bg_header.png");
+}
+
+header ul {
+	list-style-type: none;
+	padding: 0;
+	display: inline-block;
+}
+
+header>div {
+	width: 1400px;
+	height: 40px;
+	margin: auto;
+}
+
+header .main_bar {
+	height: 150px;
+	text-align: center;
+}
+
+header .main_bar div {
+	height: 150px;
+	line-height: 150px;
+	display: inline-block;
+}
+
+header li {
+	display: inline-block;
+}
+
+header .main_bar li img {
+	width: 35px;
+	height: 35px;
+}
+
+header .main_bar .main_logo {
+	width: 100px;
+	height: 100px;
+	padding: 25px;
+}
+
+header .main_bar a {
+	text-decoration: none;
+	font-size: 13px;
+	color: black;
+}
+
+header .main_bar div, .main_bar img {
+	display: inline-block;
+}
+
+header .main_bar div:first-child {
+	float: left;
+	padding-left: 100px;
+}
+
+header .main_bar div:last-child {
+	float: right;
+	padding: 0 150px 0 80px;
+}
+
+/** 메뉴바 **/
+header .menu_bar {
+	clear: right;
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid darkgray;
+}
+
+header .menu {
+	width: 1400px;
+	margin: auto;
+}
+
+header .menu>ul {
+	margin: auto;
+	padding-left: 30px;
+	width: 1400px;
+	text-align: center;
+}
+
+header .menu>ul>li {
+	width: 180px;
+	text-align: center;
+}
+
+header .menu>ul>li:nth-child(1), header .menu>ul>li:nth-child(1) ul {
+	width: 200px;
+}
+
+header .menu>ul>li:nth-child(1) a {
+	display: inline-block;
+	width: 40%;
+}
+
+header .submenu ul {
+	padding-top: 10px;
+	min-width: 180px;
+	display: block;
+}
+
+header .submenu li {
+	display: block;
+}
+
+header .menu>ul>li:nth-child(1) a {
+	font-size: 12px;
+}
+
+header .menu>ul>li:nth-child(1) a:first-child {
+	color: #ff7c97;
+}
+
+header .menu>ul>li:nth-child(1) a:nth-child(2) {
+	color: gray;
+}
+
+header .menu>ul>li:nth-child(2) {
+	width: 200px;
+	text-align: center;
+}
+
+header .menu>ul>li:nth-child(2) ul li img {
+	margin-top: -15px;
+}
+
+header .menu>ul>li>a {
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	color: #454545;
+	font-family: 'BBTreeGB';
+	font-size: 14px;
+	font-weight: bold;
+}
+
+header .menu a {
+	text-decoration: none;
+	color: #3c3c3c;
+	font-size: 14px;
+}
+
+header .submenu a {
+	display: inline-block;
+	margin: 10px 0;
+	font-size: 13px;
+}
+
+header .submenu li {
+	visibility: hidden;
+	opacity: 0;
+}
+
+header .submenu a:hover {
+	color: #ff7c97;
+	visibility: visible;
+}
+
+header .submenu {
+	visibility: hidden;
+	height: 0;
+	margin: 0;
+	position: absolute;
+	transition: height 0.5s;
+}
+
+header .menu_bg {
+	visibility: hidden;
+	width: 100%;
+	height: 0;
+	margin: -10px;
+	left: 5px;
+	position: absolute;
+	background: white url("http://localhost:9000/br31/images/bg_image.jpg") no-repeat 100% 100%/100%;
+	border-bottom: 1px solid darkgray;
+	transition: height 0.4s;
+}
+
+header .menu:hover div.menu_bg {
+	visibility: visible;
+	height: 280px;
+	z-index: 90;
+	overflow: hidden;
+}
+
+header .menu:hover .submenu, header .menu:hover .submenu>ul {
+	height: 270px;
+	visibility: visible;
+	z-index: 100;
+}
+
+header .menu_img {
+	visibility: hidden;
+	opacity: 0;
+}
+
+header .menu:hover .menu_img, header .menu:hover .submenu li {
+	visibility: visible;
+	opacity: 1;
+	transition: 1s;
+}
+
+/** header - 관리자 **/
+header .main_bar .admin_logo {
+	width: 400px;
+	height: 70px;
+	padding-top: 40px;
+}
+
+header .admin_msg {
+	width: 100%;
+	height: 27px;
+	text-align: center;
+	color: white;
+	background-color: indianred;
+	font-weight: bold;
+	text-decoration: blink;
+	margin: auto;
+	line-height: 27px;
+}
+
+header .fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+
+/********************
+	footer
+********************/
+footer {
+	background-image: url("http://localhost:9000/br31/images/bg_footer.png");
+}
+
+footer>div {
+	width: 1400px;
+	margin: auto;
+	/* border-top: 1px solid orange; */
+}
+
+footer ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+footer li {
+	display: inline-block;
+}
+
+footer div {
+	text-align: center;
+}
+
+footer nav:first-child a {
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+	font-size: 14px;
+	margin: 25px 20px;
+	letter-spacing: -1px;
+}
+
+footer div>nav:nth-child(2) {
+	/* background-color: #f2f2f2; */
+	
+}
+
+footer div>nav:nth-child(2) li {
+	margin: 20px;
+}
+
+footer div>nav:nth-child(2) li:nth-child(4), footer div>nav:nth-child(2) li:nth-child(5)
+	{
+	margin-right: 0;
+}
+
+footer div:nth-child(3) {
+	padding: 30px;
+}
+
+footer span {
+	display: inline-block;
+	font-size: 12px;
+	letter-spacing: -1px;
+}
+
+footer .btn_family_site img {
+	width: 15px;
+	height: 15px;
+	margin-left: 15px;
+}
+
+footer .btn_family_site {
+	position: relative;
+}
+
+footer .btn_family_site span {
+	display: inline-block;
+	font-size: 12px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 3px 20px;
+	border: 1px outset lightgray;
+}
+
+footer .sub_family_site li {
+	display: none;
+	height: 7px;
+	text-align: left;
+	margin: 0px;
+}
+
+footer .sub_family_site {
+	width: 126px;
+	background-color: white;
+	position: absolute;
+	top: -263px;
+	border: 1px outset lightgray;
+	display: none;
+}
+
+footer .sub_family_site a {
+	display: inline-block;
+	width: 126px;
+	/* text-align: center; */
+	text-decoration: none;
+	color: black;
+	font-size: 11px;
+	letter-spacing: -1px;
+}
+
+footer .btn_family_site:hover .sub_family_site li {
+	display: block;
+}
+
+footer .btn_family_site:hover .sub_family_site {
+	display: block;
+}
+
+footer .company_info {
+	margin-bottom: 100px;
+}

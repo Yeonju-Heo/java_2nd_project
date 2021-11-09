@@ -1,0 +1,455 @@
+/****공통*************/
+/****공통*************/
+/****공통*************/
+/****공통*************/
+
+h3.title{
+	font-weight:bold;
+	font-size: 16px;
+}
+div.content{
+	width: 950px;
+	text-align: center;
+	margin: auto;
+	margin-top: 80px;
+	overflow: hidden;
+} 
+section.page{
+	margin-bottom: 100px;
+} 
+section.inner_page{
+	position: relative;
+	display: block;
+	width: 1200px;
+	margin: auto;
+}
+span.btn_index button{
+	border: 1px solid rgb(187,187,187);
+	border-radius: 100%;
+	width: 80px; height: 80px;
+	font-size: 30px;
+	color: rgb(187,187,187);
+	background-color: white;
+	font-weight: lighter;
+	position: absolute;
+	cursor: pointer;
+	overflow: hidden;
+}
+span.btn_index button.left{
+	top: 300px;
+	left: 0px;
+}
+span.btn_index button.right{
+	top: 300px;
+	left: 1100px;
+}
+img.btn_image{
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	padding-left: 10px;
+	padding-top: 10px;
+	border: 1px solid blue;
+	vertical-align: text-bottom;
+}
+label.btn_label{
+	font-size: 13px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	color: black;
+	border: 1px solid red;
+}
+
+
+/*****상단 설명 ************/
+/*****상단 설명 ************/
+/*****상단 설명 ************/
+
+section.top_info{
+	text-align: center;
+}
+section.top_info label.eng_name{
+	color:rgb(227,182,59);
+	font-size: 11px;
+}
+section.top_info h1.kor_name{
+	font-weight: lighter;
+	font-size: 50px;
+	margin: 0;
+}
+section.top_info label.p_explain{
+	color: rgb(148,135,128);
+	font-size: 14px;
+}
+section.top_info div.bg{
+	border: none;
+	position: relative;
+	width: 100%;
+	margin: auto;
+	background-image: url("../images/img_con.png");
+	background-repeat: no-repeat; 
+	background-position: center bottom;
+	background-size: 80px;
+	height: 500px;
+}
+section.top_info div.no_bg{
+	border: none;
+	position: relative;
+	width: 100%;
+	margin: auto;
+	height: 500px;
+}
+section.top_info div.icons{
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	width: 160px;
+	text-align: right;
+}
+section.top_info div.icons_cf{
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	width: 160px;
+	text-align: right;
+}
+section.top_info div.icons a{
+	display: inline-block;
+}
+section.top_info div.icons a:first-child{
+	display: inline-block;
+	width: 30px; height: 30px;
+	text-align: center;
+	border: 1px solid rgb(226,216,212);
+	position: absolute;
+	left: 1px;
+	margin:0; padding:2px;
+	border-radius: 100%;
+	color: rgb(226,216,212);
+	text-decoration: none;
+	overflow: hidden;
+}
+section.top_info div.arrowbox{
+	position: absolute;
+	display : none;
+	border: 1px solid rgb(187,187,187);
+	border-radius: 10px;
+	bottom: 55px;
+	right: 85px;
+	padding: 2px 10px;
+	font-size: 11px;
+}
+/*
+section.top_info div.arrowbox:after, section.top_info div.arrowbox:before{
+	content:'';
+	position: absolute;
+	display : inline-block;
+	width:0px;
+	height:0px;
+	border: solid transparent;
+	left: 50%;
+	bottom: -14px;
+}
+section.top_info div.arrowbox:after{
+	border-style: solid;
+	border-width: 20px;
+	margin-left: -20px;
+	border-color: rgb(187,187,187) transparent transparent transparent;
+	bottom: -14px;
+}
+section.top_info div.arrowbox:before{
+	border-style: solid;
+	border-width: 26px;
+	margin-left: -26px;
+	bottom: -14px;
+}*/
+section.top_info{
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgb(226,216,212);
+}
+
+
+/******* 사이즈 **************/
+/******* 사이즈 **************/
+/******* 사이즈 **************/
+/******* 사이즈 **************/
+
+
+
+section.size_info{
+	padding: 40px 0;
+	text-align: center;
+	margin: auto;
+}
+section.size_info div.depth1 img.title{
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 50px 0;
+}
+section.size_info div.depth1{
+	width: 48%;
+	margin-top: 10px; 
+	display: inline-block;
+}
+section.size_info div.depth2{
+	display: inline-block;
+	width: 48%; height: 100px;
+	position: relative;
+}
+section.size_info div.depth1 div.depth2 img{
+	display: inline;
+	position: absolute;
+	left: 0px;
+}
+section.size_info div.depth1 div.depth2 label{
+	padding: 5px 0;
+}
+section.size_info div.depth1 div.depth2 div.text{
+	display: inline-block;
+	width: 140px;
+	position: absolute;
+	right: 0px;
+}
+section.size_info div.depth1 div.depth2 label.title{
+	color: rgb(131,126,124);
+	font-size: 14px;
+	display: block;
+	text-align: left;
+}
+section.size_info div.depth1 div.depth2 label{
+	text-align: left;
+	display: inline-block;
+} 
+section.size_info div.depth1 div.depth2 label.info{
+	color: rgb(172,160,154);
+	display: block;
+	font-size: 10px;
+}
+section.size_info div.depth1 div.depth2 label.price{
+	color: rgb(255,169,76);
+	font-size: 12px;
+	display: block;
+}
+
+
+/* 추천플레이버 *****************/
+/* 추천플레이버 *****************/
+/* 추천플레이버 *****************/
+/* 추천플레이버 *****************/
+/* 추천플레이버 *****************/
+
+
+
+section.recommend_flavor {
+	padding: 70px 0;
+}
+
+section.recommend_flavor table{
+	border-collapse: collapse;
+	margin:auto; padding:0;
+	display: block;
+	width: 600px;
+}
+section.recommend_flavor td, section.recommend_flavor tr{
+	margin: 0; padding: 0;
+	border: 1px solid rgb(235,235,235);
+	height: 170px;
+}
+section.recommend_flavor td{
+	display: inline-block;
+	width: 145px;
+}
+section.recommend_flavor img{
+	width: 100px; height: 100px;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+}
+section.recommend_flavor label{
+	margin-top: 20px;
+	display: block;
+	width:100%;
+	color: rgb(172,160,154);
+	font-size: 12px;
+}
+section.recommend_flavor span.depth1{
+	display: inline-block;
+	width: 100%; height: 150px;
+	text-align: center;
+}
+section.recommend_flavor span.depth2{
+	display :inline-block;
+	text-align: center;
+	width: 100%; height: 180px;
+	background-image : url("http://localhost:9000/br31/menu/images/img_con.png");
+	background-repeat: no-repeat; 
+	background-position: center bottom;
+	background-size: 25px;
+}
+section.recommend_flavor a{
+	width: 100%; height: 170px;
+	display: inline-block;
+	text-decoration: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+/*********인스타그램************/
+/*********인스타그램************/
+/*********인스타그램************/
+/*********인스타그램************/
+/*********인스타그램************/
+
+section.instagram {
+	padding: 40px 0;
+}
+section.instagram div.insta_icon{
+	margin-top: 30px;
+	margin-bottom: 80px;
+	
+}
+section.instagram div.insta_icon img{
+	cursor: pointer;
+}
+section.instagram label.hashtag {
+	font-size: 13px;
+	color: rgb(255,117,172);
+}
+section.instagram div.pictures {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+section.instagram div.pictures>div>div{
+	display: inline-block;
+	overflow: hidden;
+	width: 180px; height: 200px;
+	margin: 0; padding: 0;
+}
+section.instagram div.pictures>div{
+	text-align: left;
+	margin: 0;	padding: 0;
+}
+section.instagram div.pictures img{
+	width: 180px; height: 200px;
+	display : inline-border;
+	transition-timing-function : ease;
+	margin: 0; padding: 0;
+}
+section.instagram div.pictures img:hover{
+	transform : scale(1.2);
+	transition : transform 0.7s;
+	
+}
+
+
+
+/*******목록 **************/
+
+section.page button.list{
+	display: inline-block;
+	color: rgb(245,111,152);
+	border: 2px solid rgb(245,111,152);
+	background-color: white;
+	width: 170px; height: 50px;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	
+}
+
+/***********하단 이벤트, 해피오더 띠 **********/
+/***********하단 이벤트, 해피오더 띠 **********/
+/***********하단 이벤트, 해피오더 띠 **********/
+
+section.menu_footer div.bottom_line {
+	background-color: rgb(249,248,247);
+	margin-bottom:-15px;
+	text-align: center;
+	padding: 0;
+}
+section.menu_footer div.bottom_line>div {
+	display : inline-block;
+	text-align: left;
+	padding: 20px;
+	margin: 0;
+	overflow: hidden;
+}
+
+section.menu_footer div.bottom_line div.event{
+	width: 400px;
+	margin-right:60px;
+}
+section.menu_footer div.bottom_line div.order{
+	width: 300px;
+}
+section.menu_footer div.bottom_line div.qr{
+	width: 50px;
+}
+section.menu_footer div.bottom_line div ul{
+	list-style: none;
+}
+section.menu_footer div.bottom_line div.event img{
+	margin-top: 0px; 
+}
+section.menu_footer div.bottom_line div ul.event li a{
+	text-decoration: none;
+	font-size:12px;
+	color: black; 
+}
+section.menu_footer div.bottom_line div ul.event li::before{
+	content: "\2022";
+	color: rgb(255,124,152);
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -2em;
+}
+section.menu_footer div.bottom_line div.order img.title{
+	margin: 10px 0 20px 0;
+}
+
+
+/******** 커피 셀렉트 부분 ********/
+/******** 커피 셀렉트 부분 ********/
+/******** 커피 셀렉트 부분 ********/
+/******** 커피 셀렉트 부분 ********/
+
+button.btn_store_check{
+	border: none;
+	border-radius: 10px;
+	background-color: rgb(211,193,171);
+	color: white;
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	left: 16px;
+	bottom: 8px;
+}
+h3.coffee_info_title{
+	font-weight: normal;
+	padding: 60px 0;
+}
+div.coffee_bg{
+	width: 3000px;
+	height: 280px;
+	position: relative;
+	padding: 0;
+	text-align: left;
+}
+div.coffee_border{
+	width: 950px;
+	height: 220px;
+	padding: 0;
+	position: absolute;
+	z-index: 888;
+}
+div.coffee_list{	/*움직이는 div */
+	margin: 20px 0 50px 0;
+	width: 100%;
+	position: absolute;
+	left: 0; 
+}
+

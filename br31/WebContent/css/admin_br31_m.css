@@ -1,0 +1,147 @@
+/* 
+	commons
+*/
+.line_title {
+	text-align: center;
+	height: 100px;
+	width: 1200px;
+	display: block;
+	vertical-align: middle;
+	color: #483834;
+	margin: 100px auto 30px auto;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.line_title span {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.line_title span img {
+	vertical-align: middle;
+}
+
+.line_title span:before, .line_title span:after {
+	display: inline-block;
+	width: 36px;
+	height: 11px;
+	vertical-align: middle;
+	content: "";
+}
+
+.line_title span:before {
+	margin-right: 10px;
+	background: url(../images/icon_title_1.png) no-repeat;
+}
+
+.line_title span:after {
+	margin-left: 10px;
+	background: url(../images/icon_title_2.png) no-repeat;
+}
+
+.content {
+	width: 1200px;
+	margin: -30px auto 50px auto;
+}
+
+* {
+	margin:0;
+	font-family:"¸¼Àº °íµñ";
+}
+.content_layout {
+	/*border:1px solid blue;*/
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+.board_list {
+	text-align: center;
+}
+.board_list table {
+	width: 1000px;
+	font-size: 13px;
+	margin: 15px auto;
+}
+
+table, th, td {
+	border-style: solid none; 
+	border-color: #dfdfdf;
+	border-width: 1px;
+	border-collapse: collapse;
+	text-align: center;
+}
+.board_list table tr:nth-child(1) td {
+	text-align: right;
+}
+th {
+	background-color: #f6f6f6;
+}
+
+th, td {
+	padding: 14px 15px;
+}
+table a {
+	text-decoration: none;
+	color: black;
+}
+table a:hover {
+	color: #ff7c97;
+}
+button {
+	padding: 1px 20px;
+	width: 115px;
+	height: 30px;
+	color: #fff;
+	font-size: 14px;
+	border: 0;
+	border-radius: 3px;
+	background: #d3c1ab;
+	box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.6);
+}
+.board_write input[type=text] {
+	width: 95%;
+	padding: 5px 10px;
+}
+.board_write textarea {
+	width: 97%;
+	height: 300px;
+	resize: none;
+}
+
+.notice_content td, .board_write td {
+	text-align: left;
+}
+
+.notice_content tr:last-child td, .board_write tr:last-child td {
+	text-align: center;
+}
+
+.board_write #fname {
+	margin-left: -180px;
+}
+
+.content_layout table {
+	width: 1000px;
+}
+.event_content th, .notice_content th {
+	min-width: 200px;
+}
+
+.event_content td, .notice_content td  {
+	width: 800px;
+}
+
+.content_layout img {
+    width: auto; 
+    height: auto;
+    max-width: 700px;
+}
+
+
+
+
+
+
+
+
